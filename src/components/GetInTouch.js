@@ -56,7 +56,7 @@ function GetInTouch() {
             <Text fontFamily="Ubuntu Mono" color="brand.300" pl={5}>
               I'm always looking for new projects
               <br />
-              and oppurtunities to work on.
+              and opportunities to work on.
               <br />
               <br />
               Got something on your mind?
@@ -147,6 +147,25 @@ function GetInTouch() {
             _hover={{ opacity: "1" }}
           >
             Say hello 👋
+          </Button>
+        </Link>
+        <Link
+          _hover={{ textDecoration: "none" }}
+          href="/Jugal Lad.pdf"
+        >
+          <Button
+            mt={{ base: "14", md: "16" }}
+            mb={{ base: "24", md: "" }}
+            variant="outline"
+            ml={{base: '5', md:'10'}}
+            rounded="none"
+            border="2px"
+            fontFamily="Ubuntu Mono"
+            w="150px"
+            opacity="0.5"
+            _hover={{ opacity: "1" }}
+          >
+            My Resume
           </Button>
         </Link>
       </Center>

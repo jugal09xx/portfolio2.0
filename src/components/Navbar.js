@@ -81,7 +81,7 @@ function Navbar() {
         style={{ backdropFilter: "blur(10px)" }}
       >
     <Fade>
-        <HStack>
+        <HStack mb='10vh'>
           <Box textAlign="left">
             <Heading fontFamily="Inter" color="brand.200">
               <span id='initial'>J</span>ugal <span id='initial'>L</span>ad
@@ -107,7 +107,7 @@ function Navbar() {
             <RiCloseFill fontSize="35px" onClick={handleMenu} color='brand.300' opacity='0.8'/>
           </Center>
         </HStack>
-        <VStack spacing={50} mt="50%">
+        <VStack spacing={50}>
           <Link
             _hover={{ textDecoration: "none" }}
             textDecoration="none"
@@ -150,7 +150,7 @@ function Navbar() {
           </Link>
         </VStack>
         <Center>
-        <Text fontFamily='Inter' position='absolute' bottom='20' color='brand.300' opacity='0.5'>©2021 Designed and Built by Jugal Lad</Text>
+        <Text fontFamily='Inter' position='absolute' bottom='3vh' color='brand.300' opacity='0.5'>©2021 Designed and Built by Jugal Lad</Text>
       </Center>
       </Fade>
       </Box>
@@ -222,6 +222,7 @@ function Navbar() {
         </HStack>
         <Spacer />
         <HStack spacing="67px">
+        <a href='https://github.com/jugal09xx'>
           <Center
             fontSize="18px"
             opacity="0.5"
@@ -229,6 +230,8 @@ function Navbar() {
           >
             <FaGithub />
           </Center>
+          </a>
+          <a href='https://linkedin.com/in/jugallad'>
           <Center
             fontSize="18px"
             opacity="0.5"
@@ -236,6 +239,8 @@ function Navbar() {
           >
             <FaLinkedin />
           </Center>
+          </a>
+          <a href='https://instagram.com/this_is_jugxl'>
           <Center
             fontSize="18px"
             opacity="0.5"
@@ -243,6 +248,7 @@ function Navbar() {
           >
             <FaInstagram />
           </Center>
+          </a>
           <Center>
             <Link href="#getintouch" _hover={{ textDecoration: "none" }}>
               <Button
