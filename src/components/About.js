@@ -40,35 +40,35 @@ function About() {
                 </Text>
                 <Box textAlign="left" pl={{base: 5, md: 0}}>
                   <Heading fontSize="33px" fontFamily="Inter" fontWeight="700">
-                    2019 - now
+                    2021 (Jul-Sep)
                   </Heading>
                   <Text
                     fontFamily="Ubuntu Mono"
                     color="brand.300"
                     opacity="0.5"
                   >
-                    B.Tech Computer Science
+                    Software Engineering Intern
                     <br />
-                    undergraduate at SRMIST
+                    at <a href="https://automationanywhere.com"><u>Automation Anywhere</u> (Bangalore, IN)</a>
                   </Text>
                 </Box>
                 <Box textAlign="left" pl={{base: 5, md: 0}}>
                   <Heading fontSize="33px" fontFamily="Inter" fontWeight="700">
-                    2020 - now
+                    2021 - now
                   </Heading>
                   <Text
                     fontFamily="Ubuntu Mono"
                     color="brand.300"
                     opacity="0.5"
                   >
-                    MERN Stack Developer at Microsoft
+                    Club Secretary at Microsoft
                     <br />
                     Learn Student Ambassadors SRMIST
                   </Text>
                 </Box>
                 <Box textAlign="left" pl={{base: 5, md: 0}}>
                   <Heading fontSize="33px" fontFamily="Inter" fontWeight="700">
-                    2019 - now
+                    2019 - 2021
                   </Heading>
                   <Text
                     fontFamily="Ubuntu Mono"
@@ -233,7 +233,7 @@ function About() {
                     variant="outline"
                     rounded="none"
                   >
-                    Chakra UI
+                    Java
                   </Tag>
                 </HStack>
                 <Text
